@@ -89,7 +89,22 @@ i {
     color: red;
 }
 
-@media screen and (min-width: 773px) {
+@media screen and (max-width: 773px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #posts {
+        width: 350px;
+    }
+
+    .right {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 774px) and (max-width: 2000px) {
     .right {
         margin-top: 60px;
     }
