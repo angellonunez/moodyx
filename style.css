@@ -95,9 +95,9 @@ i {
         margin-right: 10px;
     }
 
-    #input {
-        width: 350px
-    };
+    .container {
+        flex-direction: column;
+    }
 
     #posts {
         width: 350px;
