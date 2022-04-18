@@ -89,11 +89,15 @@ i {
     color: red;
 }
 
-@media screen and (max-width: 773px) {
+@media screen and (max-width: 770px) {
     body {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    #input {
+        width: 350px
+    };
 
     #posts {
         width: 350px;
@@ -104,7 +108,7 @@ i {
     }
 }
 
-@media screen and (min-width: 774px) and (max-width: 2000px) {
+@media screen and (min-width: 771px) and (max-width: 2000px) {
     .right {
         margin-top: 60px;
     }
