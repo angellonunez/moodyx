@@ -20,7 +20,7 @@ body {
 }
 
 #posts {
-    width: 400px;
+    width: 380px;
 }
 
 #moods {
@@ -54,6 +54,7 @@ i {
 .box {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
     /* border: 1px solid black; */
     border-radius: 5px;
     padding: 0 20px 0 20px;
@@ -86,4 +87,10 @@ i {
 
 #msg {
     color: red;
+}
+
+@media screen and (min-width: 773px) {
+    .right {
+        margin-top: 60px;
+    }
 }
