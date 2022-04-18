@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-title {
+    color: blueviolet;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#input {
+    border-radius: 5px;
+}
+
+#posts {
+    width: 400px;
+}
+
+#moods {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#submit {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    border: 1px solid black;
+}
+
+i {
+    cursor: pointer;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 0 20px 0 20px;
+    background: rgb(204,201,255);
+    background: linear-gradient(90deg, rgba(204,201,255,0.20) 0%, rgba(46,46,230,0.20) 46%, rgba(0,212,255,0.20) 100%);
+}
+
+.post {
+    width: 100%;
+    display: flex;
+}
+
+.mood-value {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mood-date {
+    width: 100%;
+}
+
+.date {
+    font-size: 10px;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+#msg {
+    color: red;
+}
